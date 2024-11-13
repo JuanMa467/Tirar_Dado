@@ -2,7 +2,7 @@ function  tirarDados(){
     var numeroAlAzar=0
     // Creo un numero al azar entre el 1 y 6
     numeroAlAzar= Math.floor(Math.random() * (6)) + 1;
-
+    
     const imgDado =document.getElementById("imgDado")
 
     // Animación de rotación 
